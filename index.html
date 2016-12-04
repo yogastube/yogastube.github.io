@@ -810,26 +810,29 @@
 								</div>
 							</div> 
 							<div id="fields"> 
-								<form id="ajax-contact-form" class="row" action="#">
-									<div class="col-md-6 col-sm-6">
-										<input class="inp" type="text" name="name" placeholder="Name" title="Name">
-									</div>
-									<div class="col-md-6 col-sm-6">
-										<input class="inp" type="text" name="email" placeholder="Email" title="Email">
-									</div>
-									<div class="clear"></div>
-									<div class="col-md-6 col-sm-6">
-										<input class="inp" type="text" name="phone" placeholder="Telefon" title="Phone">
-									</div>
-									<div class="col-md-6 col-sm-6">
-										<input class="inp" type="text" name="subject" placeholder="Thema" title="Subject">
-									</div>
-									<div class="clear"></div>
-									<div class="col-md-12">
-										<textarea class="inp" rows="4" name="message" placeholder="Nachricht" title="Message"></textarea>
-									</div>
-									<div class="col-md-12"><input class="shortcode_button" type="submit" value="Send message"></div>
-								</form> 
+				<form id="send-message-contact-form" class="row" action="https://formspree.io/dieyogastube@gmail.com" method="POST">
+         <div class="col-md-6 col-sm-6">
+                                  <input name="yourname" type="text" class="inp" id="inputname" placeholder="Enter your name">
+         </div>
+         <div class="col-md-6 col-sm-6">
+          <input name="email" type="email" class="inp" id="inputemail" placeholder="Enter your email">
+         </div>
+         <div class="clear"></div>
+         <div class="col-md-6 col-sm-6">
+          <input name="phone" type="text" class="inp" id="inputphone" placeholder="Telefon / Handy" title="Telefon">
+         </div>
+         <div class="col-md-6 col-sm-6">
+           <input name="subject" type="text" class="inp" id="inputsubject" placeholder="Thema">
+         </div>
+         <div class="clear"></div>
+         <div class="col-md-12">
+          <textarea name="comments" class="inp" id="inputmessage" rows="4" placeholder="Nachricht" title="Nachricht"></textarea>
+         </div>
+         <div class="col-md-12">
+            <!-- <input class="shortcode_button" type="submit" value="Send message"> -->
+           <button type="submit" class="btn shortcode_button">Send message </button>
+         </div>
+        </form>
 							</div> 
 						</div>
 					</div>
