@@ -634,6 +634,43 @@ h4	{
 
 
 
+
+/************** ANGEBOT SECTION ***********/
+.angebot_block .img-wrap img	{
+	display:block;
+	margin:0 auto;
+}
+.angebot_block	{
+	position:relative;
+}
+.angebot_block .col_img	{
+	background:url(../images/img_angebot.jpg) no-repeat center center;
+	background-size:cover;
+	position:absolute;
+	top:0px;
+	bottom:0;
+	right:0px;
+	min-height:250px;
+}
+.angebot_block .col_cont	{
+	float:left;	
+}
+.angebot_block .col_img,
+.angebot_block .col_cont	{
+	width:50%;
+}
+.angebot_block .wrap_cont	{
+	padding:35px 30px 40px 40px;
+}
+.angebot_block .wrap_cont header	{
+	padding:0px;
+}
+.angebot_block .shortcode_button	{
+	margin-top:15px;
+}
+
+
+
 /********** PORTFOLIO SECTION *********/
 /**** Isotope Filtering ****/
 .isotope-item	{
