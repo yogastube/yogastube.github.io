@@ -11,6 +11,8 @@ jQuery(document).ready(function() {
 			right: 'agendaWeek, agendaDay'
 		},
 		editable: true,
+		minTime: "09:00:00",
+		maxTime: "20:00:00",
 		events: [
 			// Example
 			/*{	title: 'Morning Flow', //title of class
@@ -20,59 +22,73 @@ jQuery(document).ready(function() {
 			},*/
 			// Monday
 			{	
-				title: 'Morning Flow', //title of class
-				start: '09:00', //time of start - Monday 9.00
-                end: '10:00', // time of end - Monday 10.00
-				dow: [1, 3, 5, 0]
+				title: 'YOGALATES\n Tanja', //title of class
+				start: '09:30', //time of start - Monday 9.30
+                end: '10:30', // time of end - Monday 10.30
+				dow: [1, 4]
 			},
 			{
-				title: 'Ashtanga Yoga',
-				start: '10:00', //time of start - Monday 10.00
-                end: '11:00', // time of end - Monday 11.00
+				title: 'YOGALATES\n Tanja',
+				start: '17:30', //time of start - Monday 10.00
+                end: '18:30', // time of end - Monday 11.00
                 color: '#DEFFDB',
-				dow: [1, 3, 5, 0]
+				dow: [1]
 			},
 			{
-				title: 'Kundalini Yoga',
-				start: '11:00', //time of start - Monday 11.00
-                end: '12:00', // time of end - Monday 12.00
+				title: 'PILATES\n Tanja',
+				start: '09:00', //time of start 
+                end: '10:00', // time of end 
                 color: '#FFEAC4',
-				dow: [1, 3, 5, 0]
+				dow: [2]
 			},
 			{	
-				title: 'Hatha Yoga\n Trainer: Joanna Doe', //title of class
-				start: '12:00', //time of start - Monday 9.00
-                end: '13:00', // time of end - Monday 10.00
+				title: 'ASHTANGA YOGA\n Tanja', //title of class
+				start: '10:30', //time of start - Monday 9.00
+                end: '11:45', // time of end - Monday 10.00
 				color: '#FFEAE0',
-				dow: [1, 3, 5, 0]
+				dow: [2, 6]
 			},
 			{
-				title: 'Ashtanga Yoga',
-				start: '13:00', //time of start - Monday 10.00
-                end: '14:00', // time of end - Monday 11.00
+				title: 'PILATES\n Tanja',
+				start: '17:30', //time of start - Monday 10.00
+                end: '18:30', // time of end - Monday 11.00
                 color: '#DEFFDB',
-				dow: [1, 2, 3, 4, 5, 6, 0]
+				dow: [2]
 			},
 			{
-				title: 'Kundalini Yoga',
-				start: '14:00', //time of start - Monday 11.00
-                end: '15:00', // time of end - Monday 12.00
+				title: 'YOGA',
+				start: '18:45', //time of start - Monday 11.00
+                end: '20:00', // time of end - Monday 12.00
                 color: '#FFEAC4',
-				dow: [1, 3, 5, 0]
+				dow: [2]
 			},
 			{	
-				title: 'Kundalini Yoga', //title of class
-				start: '09:00', //time of start - Tuesday 9.00
-                end: '10:00', // time of end - Tuesday 10.00
+				title: 'KUNDALINI YOGA\n Maria', //title of class
+				start: '19:00', //time of start - Tuesday 9.00
+                end: '20:30', // time of end - Tuesday 10.00
                 color: '#FFEAC4',
-				dow: [2, 4, 6] // repeat on Tue, Thu, Sat
+				dow: [3] // repeat on Tue, Thu, Sat
 			},
 			{
-				title: 'Yoga Dance',
-				start: '11:00', //time of start - Tuesday 11.00
-                end: '12:00', // time of end - Tuesday 12.00
+				title: 'YOGA',
+				start: '18:30', //time of start - Tuesday 11.00
+                end: '20:00', // time of end - Tuesday 12.00
                 color: '#D8FFF0',
-				dow: [2, 4, 6]
+				dow: [4]
+			},
+			{
+				title: 'HATHA YOGA',
+				start: '9:30', //time of start - Tuesday 11.00
+                end: '10:45', // time of end - Tuesday 12.00
+                color: '#D8FFF0',
+				dow: [5]
+			},
+			{
+				title: 'TAO YOGA\n Rita',
+				start: '11:00', //time of start 
+                end: '12:00', // time of end 
+                color: '#DEFFDB',
+				dow: [5]
 			},
 
 		],
