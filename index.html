@@ -882,11 +882,13 @@
 								<h3>Rückruf Reservieren</h3>
 							</div>
 							<p>Geben Sie Ihre Telefonnummer ein und wir werden Sie zurückrufen.</p>
-							<div class="ns_block">
-								<input type="text" class="ns_input" placeholder="Telefonnummer" title="Email address">
-								<input type="submit" class="shortcode_button" value="Reservieren">
-							</div>
-							
+				<div class="ns_block">
+         			<form id="send-message-contact-form" action="https://formspree.io/dieyogastube@gmail.com" method="POST">
+          				<input type="text" name="ruckruf_anfrage" class="ns_input" style="display: none" title="Thema" value="Das ist Rückruf Anfrage von YogaStube.at Website BesucherIn">
+          				<input type="text" name="telefon" class="ns_input" placeholder="Telefonnummer eingeben und Rückruf Reservieren" title="Telefonnummer">
+          				<input type="submit" class="shortcode_button" value="Rückruf Reservieren">
+         			</form>
+       </div>							
 						</div>
 					</div> 
 				</div> 
