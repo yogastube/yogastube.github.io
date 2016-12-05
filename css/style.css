@@ -669,6 +669,17 @@ h4	{
 	margin-top:15px;
 }
 
+/* media query mobile*/
+
+@media screen and (max-width: 768px) {
+     .angebot_block .col_cont	{
+	float:left;	
+}
+.angebot_block .col_img,
+.angebot_block .col_cont	{
+	width:100%;
+}   
+}
 
 
 /********** PORTFOLIO SECTION *********/
